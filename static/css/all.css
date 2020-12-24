@@ -702,6 +702,28 @@ border-top: dotted #ddd;
 border-width: 1px 0;
 }
 
+#menubar {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 13px;
+    padding-top: 0px ;
+    #border-bottom: dotted #ddd;
+    border-width: 1px 0;
+    display: block;
+}
+
+#menuitem {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 0px ;
+    padding-left: 0px ;
+    border-width: 1px 0;
+    color: #3267aa;
+}
+
 #post pre {
 border: 1px solid #ddd;
 font-size: 85%;

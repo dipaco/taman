@@ -42,6 +42,14 @@
     </div>
 
     <div class="eleven columns content">
+      {% if SHOW_TOP_MENUBAR %}
+      <div id="menubar">
+          {% for title, link in MENUITEMS %}
+        <div id="menuitem"><a href="{{ link }}">{{ title }}</a></div><div id="menuitem">{% if (MENUITEMS|last)[0] != title %} / {% endif %}</div>
+          {% endfor %}
+      </div>
+      {% endif %}
+
       {% block content %}
       {% endblock %}
 
